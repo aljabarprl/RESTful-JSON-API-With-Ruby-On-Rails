@@ -40,12 +40,9 @@
 #     database: storage/production_cable.sqlite3
 #     migrations_paths: db/cable_migrate
 
-# Hapus semua konten dan ganti dengan ini:
 default: &default
   adapter: postgresql
   encoding: unicode
-  # Jika Anda menginstal PostgreSQL di Windows dengan user 'postgres'
-  # Ganti dengan user dan password yang Anda atur saat instalasi PostgreSQL
   username: postgres 
   password: 22122007
   host: localhost
