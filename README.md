@@ -1,6 +1,6 @@
 # RESTful JSON API WITH RUBY ON RAILS
 
-**RESTful API Todo App** menggunakan **Ruby on Rails**, termasuk proses otentikasi JWT, CRUD Todos, CRUD Items (nested), pagination, dan versioning API.
+**RESTful API Todo App** menggunakan **Ruby on Rails**, meliputi otentikasi JWT, CRUD Todos, CRUD Items (nested), pagination, dan versioning API.
 
 ---
 
@@ -13,7 +13,7 @@ Membuat akun pengguna baru.
 **Method:** `POST`  
 **Status:** `201 Created`
  
-![Sign up](https://files.catbox.moe/pvlkvu.gif)
+![Sign up](https://s3.ezgif.com/tmp/ezgif-34edd14638df31.gif)
 
 ---
 
@@ -25,7 +25,7 @@ Menggunakan kredensial untuk mendapatkan token autentikasi (JWT).
 **Response:** Mengembalikan `auth_token`  
 Token ini digunakan di **semua request berikutnya** sebagai:
 
-![Login](https://files.catbox.moe/b9ag93.gif)
+![Login](https://s2.ezgif.com/tmp/ezgif-239d666f1cfb25.gif)
 
 ---
 
@@ -39,7 +39,7 @@ Membuat sumber daya Todo baru.
 
 **Status:** `201 Created`
 
-![Sign up](https://files.catbox.moe/lnpljh.gif)
+![Sign up](https://s3.ezgif.com/tmp/ezgif-3d72e3cf3632e4.gif)
 
 ---
 
@@ -48,7 +48,7 @@ Mengambil seluruh Todo milik user yang sedang login.
 
 **Status:** `200 OK`
 
-![Sign up](https://files.catbox.moe/lgqn58.gif)
+![Sign up](https://s3.ezgif.com/tmp/ezgif-331474056648b7.gif)
 
 ---
 
@@ -58,7 +58,7 @@ Mengambil detail Todo tertentu.
 **Contoh:** `/todos/1`  
 **Status:** `200 OK`
 
-![Sign up](https://files.catbox.moe/lgqn58.gif)
+![Sign up](https://s3.ezgif.com/tmp/ezgif-338f87245e9a31.gif)
 
 ---
 
@@ -67,7 +67,7 @@ Memperbarui judul Todo.
 
 **Status:** `204 No Content`
 
-![Sign up](https://files.catbox.moe/a4anfy.gif)
+![Sign up](https://s3.ezgif.com/tmp/ezgif-3486af23dee593.gif)
 
 ---
 
@@ -76,7 +76,7 @@ Menghapus Todo dari database.
 
 **Status:** `204 No Content`
 
-![Sign up](https://files.catbox.moe/f5j48a.gif)
+![Sign up](https://s3.ezgif.com/tmp/ezgif-38711290987834.gif)
 
 ---
 
@@ -90,7 +90,7 @@ Menambahkan item baru ke Todo tertentu.
 **Status:** `201 Created`  
 **Contoh:** `/todos/2/items`
 
-![Sign up](https://files.catbox.moe/456e4g.gif)
+![Sign up](https://s3.ezgif.com/tmp/ezgif-34e618a8f732b7.gif)
 
 ---
 
@@ -99,6 +99,8 @@ Mengubah atribut item (mis. `done: true`).
 
 **Status:** `204 No Content`
 
+![Sign up](https://s3.ezgif.com/tmp/ezgif-368b1b485b676a.gif)
+
 ---
 
 ### 3.3 Delete Item — `DELETE /todos/:todo_id/items/:id`
@@ -106,7 +108,7 @@ Menghapus item tertentu.
 
 **Status:** `204 No Content`
 
-![Sign up](https://files.catbox.moe/1x7tun.gif)
+![Sign up](https://s3.ezgif.com/tmp/ezgif-3e77b4516c3749.gif)
 
 ---
 
@@ -116,9 +118,15 @@ Menghapus item tertentu.
 Menampilkan hasil secara bertahap untuk data yang banyak.
 
 **Contoh:**  
+`/todos?page=1` → Mengambil semua data pada halaman ke-1.
+
+`/todos?page=3` → Mengambil semua data pada halaman ke-3.
+
 `/todos?page=2&per_page=15` → Mengambil 15 data pada halaman ke-2.
 
-![Sign up](https://files.catbox.moe/i36j12.gif)
+`/todos?page=3&per_page=20` → Mengambil 20 data pada halaman ke-3.
+
+![Sign up](https://s2.ezgif.com/tmp/ezgif-25340e5fdc599e.gif)
 
 ---
 
@@ -127,6 +135,11 @@ Created With
 
 ![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white)
 ![Rails](https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+
+Credit
+
+https://www.digitalocean.com/community/tutorials/build-a-restful-json-api-with-rails-5-part-one
 
 ---
 
