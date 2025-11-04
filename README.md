@@ -25,7 +25,7 @@ Menggunakan kredensial untuk mendapatkan token autentikasi (JWT).
 **Response:** Mengembalikan `auth_token`  
 Token ini digunakan di **semua request berikutnya** sebagai:
 
-![Login](https://s2.ezgif.com/tmp/ezgif-239d666f1cfb25.gif)
+![Login](https://files.catbox.moe/a3bqwt.gif)
 
 ---
 
@@ -39,7 +39,7 @@ Membuat sumber daya Todo baru.
 
 **Status:** `201 Created`
 
-![Sign up](https://s3.ezgif.com/tmp/ezgif-3d72e3cf3632e4.gif)
+![Post Todos](https://files.catbox.moe/73zdws.gif)
 
 ---
 
@@ -48,7 +48,7 @@ Mengambil seluruh Todo milik user yang sedang login.
 
 **Status:** `200 OK`
 
-![Sign up](https://s3.ezgif.com/tmp/ezgif-331474056648b7.gif)
+![Get Todos](https://files.catbox.moe/dv7xg5.gif)
 
 ---
 
@@ -58,7 +58,7 @@ Mengambil detail Todo tertentu.
 **Contoh:** `/todos/1`  
 **Status:** `200 OK`
 
-![Sign up](https://s3.ezgif.com/tmp/ezgif-338f87245e9a31.gif)
+![Get Todo](https://files.catbox.moe/lqft4q.gif)
 
 ---
 
@@ -67,7 +67,7 @@ Memperbarui judul Todo.
 
 **Status:** `204 No Content`
 
-![Sign up](https://s3.ezgif.com/tmp/ezgif-3486af23dee593.gif)
+![Put Todo](https://files.catbox.moe/stmesn.gif)
 
 ---
 
@@ -76,7 +76,7 @@ Menghapus Todo dari database.
 
 **Status:** `204 No Content`
 
-![Sign up](https://s3.ezgif.com/tmp/ezgif-38711290987834.gif)
+![Delete Todo](https://files.catbox.moe/vd5qbr.gif)
 
 ---
 
@@ -90,7 +90,7 @@ Menambahkan item baru ke Todo tertentu.
 **Status:** `201 Created`  
 **Contoh:** `/todos/2/items`
 
-![Sign up](https://s3.ezgif.com/tmp/ezgif-34e618a8f732b7.gif)
+![Post Item](https://files.catbox.moe/fhb227.gif)
 
 ---
 
@@ -99,7 +99,7 @@ Mengubah atribut item (mis. `done: true`).
 
 **Status:** `204 No Content`
 
-![Sign up](https://s3.ezgif.com/tmp/ezgif-368b1b485b676a.gif)
+![Put Item](https://files.catbox.moe/v9th21.gif)
 
 ---
 
@@ -108,7 +108,7 @@ Menghapus item tertentu.
 
 **Status:** `204 No Content`
 
-![Sign up](https://s3.ezgif.com/tmp/ezgif-3e77b4516c3749.gif)
+![Delete Item](https://files.catbox.moe/dgmuao.gif)
 
 ---
 
@@ -126,7 +126,7 @@ Menampilkan hasil secara bertahap untuk data yang banyak.
 
 `/todos?page=3&per_page=20` → Mengambil 20 data pada halaman ke-3.
 
-![Sign up](https://s2.ezgif.com/tmp/ezgif-25340e5fdc599e.gif)
+![Pagination](https://files.catbox.moe/vu48fd.gif)
 
 ---
 
