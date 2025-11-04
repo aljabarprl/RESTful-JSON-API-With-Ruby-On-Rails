@@ -13,7 +13,7 @@ Membuat akun pengguna baru.
 **Method:** `POST`  
 **Status:** `201 Created`
  
-![Sign up](https://s3.ezgif.com/tmp/ezgif-34edd14638df31.gif)
+![Sign up](https://files.catbox.moe/krue6b.gif)
 
 ---
 
