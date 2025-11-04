@@ -1,4 +1,4 @@
-# RESTful JSON API WITH RUBY ON RAILS
+# RESTFUL JSON API WITH RUBY ON RAILS
 
 **RESTful API Todo App** menggunakan **Ruby on Rails**, meliputi otentikasi JWT, CRUD Todos, CRUD Items (nested), pagination, dan versioning API.
 
